@@ -9,6 +9,7 @@ export function Navbar() {
           <li><a href="#about" className="hover:text-foreground transition-colors">About</a></li>
           <li><a href="#projects" className="hover:text-foreground transition-colors">Projects</a></li>
           <li><a href="#contact" className="hover:text-foreground transition-colors">Contact</a></li>
+          <li><a href="/crm" className="hover:text-foreground transition-colors">CRM</a></li>
         </ul>
         <a
           href="#contact"
