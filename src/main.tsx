@@ -2,9 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 function App() {
-  return <h1>My Portfolio Works 🚀</h1>;
+  return (
+    <div style={{ padding: 40 }}>
+      <h1>FUTURE FS 01</h1>
+      <p>Deployment working 🚀</p>
+    </div>
+  );
 }
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <App />
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
