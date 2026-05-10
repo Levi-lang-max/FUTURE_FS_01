@@ -17,7 +17,6 @@
     "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
