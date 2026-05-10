@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 
 function App() {
   return (
-    <div style={{ padding: 40 }}>
-      <h1>FUTURE FS 01</h1>
-      <p>Deployment working 🚀</p>
+    <div style={{ padding: 40, fontFamily: "Arial" }}>
+      <h1>FUTURE FS 01 🚀</h1>
+      <p>SPA Deployment Fixed Successfully</p>
     </div>
   );
 }
