@@ -72,15 +72,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Personal portfolio of Abrham Belay, Full Stack Web Development Intern from Ethiopia." },
       { name: "author", content: "Abrham Belay" },
     ],
-    links: [
-      { rel: "stylesheet", href: appCss },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&display=swap",
-      },
-    ],
+    links: [],
   }),
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
