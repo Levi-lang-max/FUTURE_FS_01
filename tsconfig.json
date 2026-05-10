@@ -12,14 +12,15 @@
       "DOM.Iterable"
     ],
     "types": [
-      "vite/client"
+      "vite/client",
+      "node"
     ],
     "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
     "noEmit": true,
     "paths": {
       "@/*": [
-        "src/*"
+        "./src/*"
       ]
     },
     "strict": true,
